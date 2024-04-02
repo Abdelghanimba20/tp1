@@ -1,9 +1,3 @@
-J'ai créé une interface IDao avec une méthode getDate.
-J'ai mis en place une implémentation de cette interface.
-Ensuite, j'ai défini l'interface IMetier avec une méthode calcul.
-J'ai procédé à la création d'une implémentation de cette interface en optant pour un couplage faible.
-Pour l'injection des dépendances :
-a. J'ai effectué l'injection par instanciation statique.
-b. J'ai également réalisé l'injection par instanciation dynamique.
-c. Enfin, j'ai utilisé le Framework Spring pour l'injection des dépendances, tant dans sa version XML que dans sa version avec annotations.
-# tp1
+J'ai conçu une interface IDao contenant une méthode getDate, pour laquelle j'ai développé une implémentation. Ensuite, j'ai défini une autre interface IMetier avec une méthode calcul, et j'ai choisi une approche de couplage faible pour créer une implémentation de cette interface. Pour la gestion des dépendances :
+
+a. J'ai réalisé l'injection statique des dépendances. b. J'ai également implémenté l'injection dynamique des dépendances. c. Enfin, j'ai adopté l'utilisation du Framework Spring pour gérer l'injection des dépendances, en utilisant à la fois sa configuration XML et ses annotations.
